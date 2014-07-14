@@ -18,8 +18,16 @@ gem "compass-rails", "~> 1.0.3"
 # gem "johnson" # Mozilla SpiderMonkey for Ruby
 
 # SQLite is the default database connection but only suitable for local use
-gem "sqlite3", "~> 1.3.5"
+#gem "sqlite3", "~> 1.3.5"
 
+gem 'pry'
+gem 'pg'
+gem 'pry-rails'
+gem 'httparty'
+gem 'awesome_print'
+gem 'thin'
+gem "bcrypt-ruby", :require => "bcrypt"
+gem 'rails_12factor', group: :production
 # To use MySQL
 # gem "mysql", "~> 2.8.1"
 
